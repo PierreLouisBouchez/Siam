@@ -1,0 +1,50 @@
+html{
+    color:#FCFBDE;
+}
+
+body{
+    background: rgb(195,45,1);
+    background: radial-gradient(circle, rgba(195,45,1,1) 26%, rgba(69,13,1,1) 100%);
+    color: #FCFBDE;
+    width: 100%;
+}
+.nocolor-card{
+    border-color: inherit;
+    background-color: rgba(255, 255, 255, 0);
+}
+td{
+    color:#FCFBDE;
+}
+.plateau td
+{
+    table-layout:fixed;
+}
+.plateau td img{
+    width: 100%;
+}
+.plateau{
+    background-image: url("/SIAM/img/plateau.png");
+    background-size: cover;
+    border: 4px solid antiquewhite;
+    border-collapse: collapse;
+
+
+}
+
+.green{
+    border: 3px dashed greenyellow;
+
+}
+
+.red{
+    border: 3px dotted red;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.current{
+    color: #5cb85c;
+}
